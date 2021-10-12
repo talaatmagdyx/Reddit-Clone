@@ -100,7 +100,8 @@ GEM
     nokogiri (1.10.5-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
-    puma (3.12.2)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.0.8)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -196,7 +197,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.5)
   jquery-rails
-  puma (~> 3.12)
+  puma (~> 4.3)
   rails (~> 5.0.7, >= 5.0.7.2)
   record_tag_helper (~> 1.0)
   sass-rails (~> 5.0)
